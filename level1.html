@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dead End</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="youlost">
+      <section id="chapter1">
+        <h1 class="jersey-10-black">Level 1</h1>
+        <p id="story" class="jersey-10">
+          You enter the castle and you and up in a huge hall with a scary
+          looking knight in armor standing right in front of you. The knight
+          looks at you without making a noise.
+        </p>
+        <img class="container" src="images/knight.png" alt="scary knight" />
+        <div class="button-container">
+          <button id="btn1" class="jersey-10">Attack</button>
+          <button id="btn2" class="jersey-10">
+            Try to talk with the knight
+          </button>
+          <button id="btn3" class="jersey-10">Try to pet him</button>
+        </div>
+      </section>
+
+      <section id="chapter2" class="hidden">
+        <h1 class="jersey-10-black">Level 1</h1>
+        <p id="story" class="jersey-10">
+          You run towards the knight and you do a backflip(just because it looks
+          cool) and you try to hit him with your knife but he blocks your attack
+          with his shield.
+        </p>
+        <img class="container" src="images/knight.png" alt="scary knight" />
+        <div class="button-container">
+          <button id="nextBtn" class="jersey-10">Next</button>
+        </div>
+      </section>
+
+      <section id="chapter3" class="hidden">
+        <h1 class="jersey-10-black">Level 1</h1>
+        <p id="story" class="jersey-10">
+          He starts to swing his sword towards your head.
+        </p>
+        <p id="timer" class="jersey-10-red"></p>
+        <img class="container" src="images/knight.png" alt="scary knight" />
+        <div class="button-container">
+          <button id="btn4" class="jersey-10">
+            You try to block his attack with your knifes
+          </button>
+          <button id="btn5" class="jersey-10">
+            You try to dodge his attack
+          </button>
+        </div>
+      </section>
+
+      <section id="chapter4" class="hidden">
+        <h1 class="jersey-10-black">Level 1</h1>
+        <p id="story" class="jersey-10">
+          The knights movements are slow due to his heavy armour so you manage
+          to slide away and you end up standing behind him.
+        </p>
+        <p id="timer2" class="jersey-10-red"></p>
+        <img class="container" src="images/knight.png" alt="scary knight" />
+        <div class="button-container">
+          <button id="btn6" class="jersey-10">You attack again</button>
+          <button id="btn7" class="jersey-10">You try to pet him</button>
+        </div>
+      </section>
+
+      <section id="chapter5" class="hidden">
+        <h1 class="jersey-10-black">Level 1 completed</h1>
+        <p id="story" class="jersey-10">
+          Congratulations you defeated the knight and finished level 1.
+        </p>
+        <img class="container" src="images/knight.png" alt="scary knight" />
+        <h1 class="jersey-10-red">YOU WON</h1>
+        <div class="button-container">
+          <a href="index.html" id="link-button" class="jersey-10-black"
+            >Play again</a
+          >
+          <a href="futureplans.html" id="link-button" class="jersey-10-black"
+            >Future plans</a
+          >
+        </div>
+      </section>
+    </section>
+
+    <div id="game-over" class="hidden">
+      <p class="jersey-10">Why?</p>
+      <h1 class="jersey-10-red">YOU DIED</h1>
+      <a href="index.html" id="link-button" class="jersey-10-black"
+        >Try Again</a
+      >
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>

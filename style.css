@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3f3f3f;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2em;
+  margin-bottom: -2em;
+}
+
+.button-container {
+  display: grid;
+  gap: 0.5em;
+}
+
+button {
+  justify-content: center;
+  background-color: #3f3f3f;
+  padding: 0.4em;
+  font-size: larger;
+  margin-left: 5em;
+  margin-right: 5em;
+  cursor: pointer;
+}
+
+#link-button {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 0.4em;
+  font-size: larger;
+  margin-left: 5em;
+  margin-right: 5em;
+  border-color: black;
+  border-width: 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#game-over {
+  margin-top: 35vh;
+}
+
+#start-screen {
+    margin-top: 35vh;
+}
+
+.jersey-10 {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.jersey-10-space {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin-bottom: 1em;
+}
+
+.jersey-10-red {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 0, 0);
+}
+
+.jersey-10-black {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
